@@ -10,7 +10,7 @@ import com.example.test12.Words.WordsContent;
 
 
 public class MainActivity extends Activity implements ItemFragment.OnListFragmentInteractionListener,DetailFragment.OnFragmentInteractionListener{
-    @Override
+    @Override 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
